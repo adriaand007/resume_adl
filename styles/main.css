@@ -1,0 +1,109 @@
+* {
+  font-family: "Roboto", sans-serif;
+  /*line-height: 1.5em;*/
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f6fa;
+  color: #414141;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+}
+
+main {
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+}
+
+#pic {
+  float: right;
+  margin: 0 0 0 0;
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+}
+
+dt {
+  font: 16px "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: right;
+  word-wrap: normal;
+  float: left;
+}
+
+dd {
+  font: 16px "Roboto", sans-serif;
+  float: right;
+  border-left: 1px solid #999;
+}
+
+/* === Progress Bar === */
+.progress {
+  height: 4px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  background-color: #e0e0e0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.progress-bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  /*font-size: 12px;*/
+  line-height: 1px;
+  color: #fff;
+  text-align: center;
+  background-color: #0d6efd;
+  box-shadow: none;
+  transition: width 0.6s ease;
+}
+
+h4 span.text-muted {
+  position: absolute;
+  right: 30px;
+  font-style: italic;
+  font-size: calc(100% - 4px);
+}
+
+.main-col {
+  text-align: right;
+  vertical-align: top;
+  padding-right: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.sub-col {
+  vertical-align: top;
+  padding-left: 10px;
+  border-left: 1px solid #999;
+  padding-bottom: 5px;
+}
+
+.sub-col-cl {
+  vertical-align: top;
+  padding-left: 10px;
+  border-left: none;
+  padding-bottom: 10px;
+}
+.p-sm-it {
+  font-size: small;
+  font-style: italic;
+}
+
+.card-header {
+  background-color: rgba(211, 211, 211, 0.5);
+}
